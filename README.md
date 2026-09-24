@@ -2,6 +2,9 @@
 
 I build projects across **AI agents**, **machine learning**, **computer vision**, and **networking**, mostly in Python.
 
+> [!IMPORTANT]
+> **Published research (2025):** [*Deep Learning in Archiving Indus Script and Motif Information*](https://journal.caa-international.org/articles/10.5334/jcaa.175), peer reviewed in the *Journal of Computer Applications in Archaeology*. A deep-learning pipeline that reads the undeciphered Indus Valley script from ancient seals. **94.5% sign-recognition accuracy.**
+
 ## Publications
 
 **Deep Learning in Archiving Indus Script and Motif Information**  
@@ -9,7 +12,11 @@ V. Dixit, N. Hussain, S. Basak, **D. Atturu**, D. Mitra, U. Bhattacharya
 *Journal of Computer Applications in Archaeology*, 8(1), 156–169, 2025 · Peer reviewed  
 [Read the paper](https://journal.caa-international.org/articles/10.5334/jcaa.175) · DOI: [10.5334/jcaa.175](https://doi.org/10.5334/jcaa.175)
 
-An end-to-end deep-learning pipeline that reads the undeciphered Indus Valley script from ancient seal images and archives it in a database. I ran the initial experiments and built the database and the end-to-end workflow.
+An end-to-end pipeline that reads the undeciphered Indus Valley script from ancient seal images, identifies the seal's motif, and archives both in a searchable database.
+
+- **YOLOv3** finds each script sign, **MobileNet** identifies it against the Mahadevan sign list (**94.5% accuracy, 95% F1**, best of 15 architectures tested), and a custom CNN identifies 11 motif types.
+- Built on 963 hand-annotated seal images; funded by the National Endowment for the Humanities.
+- **My role:** ran the initial experiments and built the MySQL database and the end-to-end workflow.
 
 **Deep Learning in Indus Valley Script Digitization** – Master's thesis, Florida Institute of Technology, 2024  
 [Read the thesis](https://repository.fit.edu/etd/1416)
