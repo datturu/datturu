@@ -59,9 +59,9 @@
 | Area | Example |
 |---|---|
 | **AI agents & automation** | Claude-powered agents with validated outputs that process **1.2M+ records a day** with **95%** less manual review |
-| **ML for financial services** | Fraud models improved **14%** using synthetic training data |
+| **ML for financial services** | Real-time fraud detection models on AWS and GCP, **14%** more accurate |
 | **Cloud MLOps** | Containerized model deployments with **50%** faster update cycles |
-| **Computer vision** | **94.5%** accuracy recognizing an ancient script (see below) |
+| **Computer vision** | Archaeological image pipeline with GAN-based augmentation (**+18%** detection precision) and **94.5%** accuracy recognizing an ancient script (see below) |
 
 ## Featured Research
 
