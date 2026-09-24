@@ -24,7 +24,49 @@ I build LLM-powered RAG systems and multi-agent workflows, run cloud-native MLOp
 | **Research Assistant** | Florida Institute of Technology | Mar 2023 – May 2024 | Computer vision pipeline for archaeological imagery: **+18%** detection precision; React + Flask research portal with **50%** faster model updates |
 | **Developer** | Wipro | Jul 2021 – Dec 2022 | Multi-cloud SDN features on Juniper Contrail: **25%** lower config latency; **15%** better Kubernetes resource use |
 
-> Most of my professional work is proprietary, so it isn't public. The projects below are personal, academic, and research work.
+## Selected Work
+
+> Most of my professional work is proprietary, so the code isn't public. These summaries describe the problems and results without confidential details.
+
+### Agentic data-collection pipeline · Alliance Data Solutions
+
+**Problem:** Collecting data from many websites and APIs was slow, and every record needed manual review before it could be used.
+
+**Approach:** Built agentic workflows with Claude that drive multi-threaded Python web automation and REST API integrations. Every LLM response is validated against a strict schema, so bad output is caught before it reaches the pipeline.
+
+**Results:** **40%** faster data collection · **1.2M+** data points parsed daily · **95%** less manual review · near-zero ingestion errors
+
+`Python` `Claude` `Structured outputs` `Playwright` `REST APIs`
+
+### Real-time fraud detection · Financial services (via Kurras LLC)
+
+**Problem:** Fraud models needed higher accuracy, but real fraud examples are rare, and batch risk queries were slow.
+
+**Approach:** Built cloud AI/ML pipelines on AWS and GCP using MobileNet-based models, with GAN-generated synthetic data to fill in the rare fraud cases. Deployed as containerized microservices with CI/CD, and tuned the SQL/Python workflows in BigQuery and PostgreSQL.
+
+**Results:** **14%** better fraud detection accuracy · **35%** lower query latency for batch risk models
+
+`TensorFlow` `PyTorch` `GANs` `Docker` `Kubernetes` `BigQuery` `PostgreSQL`
+
+### Multi-cloud ML operations · TekSharks Inc
+
+**Problem:** Setting up ML infrastructure was slow and inconsistent across AWS and GCP, which caused frequent security compliance alerts.
+
+**Approach:** Standardized access controls and deployment patterns across both clouds, and worked with DevOps to automate infrastructure monitoring and security hardening.
+
+**Results:** **25%** faster infrastructure provisioning · **30%** fewer security compliance flags
+
+`AWS` `GCP` `IAM` `Lambda` `Pub/Sub`
+
+### Archaeological computer vision portal · Florida Institute of Technology
+
+**Problem:** Researchers classified artifact images by hand, and updating models was slow.
+
+**Approach:** Built a computer vision pipeline with YOLOv3 and MobileNet, using GAN-based augmentation to make up for limited training data. Shipped a React + Flask portal where researchers correct predictions, and those corrections feed model retraining. Deployed on Cloud Run with Cloud Build.
+
+**Results:** **18%** better detection precision · **50%** faster model deployment and updates · led to the [published paper](https://doi.org/10.5334/jcaa.175)
+
+`YOLOv3` `MobileNet` `React` `Flask` `Docker` `Cloud Run`
 
 ## Publications
 
@@ -40,6 +82,8 @@ V. Dixit, N. Hussain, S. Basak, **D. Atturu**, D. Mitra, U. Bhattacharya
 **Deep Learning in Indus Valley Script Digitization** – Master's thesis, Florida Institute of Technology, 2024 · [Read the thesis](https://repository.fit.edu/etd/1416)
 
 ## Projects
+
+Personal, academic, and research projects.
 
 | Project | What it does | Tech |
 |---|---|---|
